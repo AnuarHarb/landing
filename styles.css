@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.cover {
+  background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('./landscape.jpg');
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-position: center;
+}
+
+h1 {
+  color: white;
+  margin: 0;
+}
+
+.about-me,
+.skills {
+  padding: 80px 0;
+  display: flex;
+}
+
+.about-me div {
+  box-sizing: border-box;
+  padding: 0 20px;
+  width: 50%;
+}
+
+.about-me div:last-child {
+  text-align: center;
+}
+
+.about-me img {
+  border-radius: 40px;
+  width: 300px;
+}
+
+.contact {
+  padding: 80px 0;
+}
+
+.contact-content {
+  display: flex;
+}
+
+.contact-content div {
+  box-sizing: border-box;
+  width: 50%;
+}
+
+.contact-content ul {
+  list-style: initial;
+}
+
+.contact-content li {
+  font-size: 22px;
+  text-align: right;
+}
